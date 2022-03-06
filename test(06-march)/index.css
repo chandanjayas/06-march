@@ -1,0 +1,65 @@
+body{
+    background-image: url("./backgraound.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-left: 20px;
+    padding: 20px; 
+}
+.navigation, button{
+    background-color: aqua;
+    padding: 40px 80px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid red;
+}
+.navigation button{
+    margin-left: 70px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: bisque;
+    cursor: pointer;
+}
+.navigation button:hover{
+    background-color: chartreuse;
+    opacity: 0.7;
+    color: red;
+}
+hr{
+    border: 2px solid blue;
+}
+h3{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    color: deeppink;
+}
+.about_sam{
+    display: none;
+}
+.apple_container{
+    display: none;
+}
+#apple{
+    /* margin-left: 280px; */
+    position: relative;
+    /* bottom: 405px; */
+    left: 400px;
+}
+.vivo_container{
+    display: none;
+}
+#vivo{
+    margin-left:600px;
+}
+.mi_container{
+    display: none;
+}
+#mi{
+    margin-left: 700px;
+}
